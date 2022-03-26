@@ -1,4 +1,6 @@
-
+if islclosure(syn.request) then
+game:Shutdown()
+end
 --Anti AFK stolen from infinite yield // the readily available old one :)
 local GC = getconnections or get_signal_cons
 if GC then
